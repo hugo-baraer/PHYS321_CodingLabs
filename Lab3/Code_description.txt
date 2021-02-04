@@ -1,0 +1,37 @@
+For this laboratory, a plot and a GIF were created to demonstrate the relation between the 
+surface brightness fluctuations and the distance of a galaxy. Our goal was to prove that there is 
+a proportional relation between the inverse of the distance to a galaxy and the relative variance 
+of the measured flux. 
+We created 3 functions to prove this. The first one creates random star positions in a 2d 
+coordinate system distributed on an assigned number of squared pixels. The second function 
+takes the stars' random positions and sorts them into a 2d histogram (2d array) containing the 
+bin information, meaning how many stars there are per bin. 
+We challenge the standard simulation by replicating variations in the stars' luminosity. To make 
+the simulation more realistic, we assign we scale each star's flux by a random Gaussian 
+distributed factor. In reality, stars have different luminosities based on their spectral type and 
+stage of their evolution. We assume that the luminosities are approximately Gaussian 
+distributed. 
+Finally, the third function computes the flux's standard deviation, i.e., the relative difference 
+between the number of stars (weighted with their brightness) of each defined square pixels. The 
+distance is defined as the square root of the number of stars. We present the geometric 
+derivation in the PDF file present in the directory "geometric_calculations_distance.pdf". The 
+inverse of the distance over the flux variance was then plotted with all the data. A linear fit was 
+provided to demonstrate the proportional behavior.
+To visually demonstrate the inverse relationship of the distance and the variation in flux, we 
+create a gif of fluxes on a grid with an increasing number of stars. We achieve this by iteratively 
+creating plots, saving them, and finally combining them into a gif. The gif can be found in the 
+Lab3 folder and is called "animation.gif". Initially, there is a large visible variation between the 
+pixels, but as the number of stars increases (recall, distance = sqrt(number of stars)), the pixels 
+look more uniform.
+Finally, to make the code more realistic, the number of pixels could be increased. Ideally, the 
+flux of each star would be measured. Also, some assumptions were made that make the code 
+less realistic. It was approximated that all stars are being equally far away in a galaxy. We 
+assume a completely random distribution of the star positions within a galaxy, i.e., that the 
+surface density within a galaxy is constant. Making a code that takes these factors into 
+consideration would make the simulation more realistic. For example, adding a surface density 
+function for stars (instead of true randomness) based on observations would be a good step. 
+Also, using real data as a reference to calibrate our simulation would make it far more realistic.  
+This could include not only real star positions but real fluxes measurements as well.
+Note that we use relative fluxes for our image plots (not scatter plot with the fit). We represent 
+flux by color, and our colormap function automatically normalizes the fluxes. 
+
