@@ -1,0 +1,25 @@
+=== PHYS 321 - Lab 3 ===
+Group 2 (PM lab)
+
+Students:
+Luca Weishaupt luca-weishaupt
+Hugo Baraër hugo-baraer <=
+
+2/2 some evidence of merging in git history
+4/4 description of code and how it works (whether in Jupyter notebook or text file)
+1/1 text file describing division of labour.
+8/8 simulation code 
+	2/2 reasonable comments
+	2/2 minimal hard coding
+	4/4 correctness of code
+4/4 analysis code 
+	2/2 reasonable comments + minimal hard coding
+	2/2 correct quantities computed (e.g., standard deviation of flux)
+3/3 final plot visual components (axis labels etc.)
+3/3 final plot that illustrates things correctly
+
+Bonus 4/5
+
+Total 28/25 
+
+Comment: I know your code generates the scatter plot, but since it's your final plot (and the one used to prove your point), why haven't you saved it? (-1)
