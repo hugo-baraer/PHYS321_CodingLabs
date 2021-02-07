@@ -1,0 +1,46 @@
+=== PHYS 321 - Lab 2 ===
+Group 2 (PM lab)
+
+Student:
+Hugo Baraër hugo-baraer
+
+3/3	understanding of Hubble flow and peculiar velocity
+
+2/2	
+    1/1 Using matplotlib
+    1/1 estimate Age using Plank.age() function
+
+2/2	
+    1/1 Using z_at_value() function
+    1/1 maths of subtracting his/her age
+
+6/6	
+    3/3 Basic knowledge of Hubble–Lemaître law
+    3/3 order-of-magnitude calculation
+
+18/18	
+    1/1 Matplotlib use
+    10/10 final plot
+    6/6 estimate age using different cosmologies
+    1/1 basic code structure
+
+13/15	
+    1/1 Matplotlib use
+    8/10 final plot
+        Would've liked to see a comparison with D_L in the second plot
+    2/2 use of Planck15.luminosity_distance()
+    2/2 Planck15.angular_diameter_distance(z)
+4/4	D(A) starts decreasing (optional: non-linear distance scale)
+
+15/15	
+    1/1 matplotlib use
+    10/10 final plot
+    1/1 loading data
+    2/2 converting to (m-M) values
+    1/1 basic code structure
+
+4/4	
+    2/2 Existence of a pull request
+    2/2 merged into main branch
+
+Total: 67/69
