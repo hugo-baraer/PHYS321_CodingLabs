@@ -113,4 +113,31 @@ plt.show()
 
 
 
+"""
+Marion bar chart code 
+
+x = np.linspace(1,6,6)
+heights = [720, 670, 670, 720, 695, 695]
+labels = ['Accelerating upwards ',
+'Slowing down upwards ',
+'Accelerating downwards ',
+'Slowing down downwards ',
+'Moving at constant speed ',
+'At rest'
+]
+fig, ax = plt.subplots(figsize=(25, 10))
+ax.bar(x,heights)
+ax.set_ylabel('Normal force recorded on the scale [N]',fontsize  = 20)
+ax.set_title('Normal forces recorded on a scale in an elevator based on the motion of the elevator', fontsize  = 20)
+ax.set_xticks(x)
+ax.set_xticklabels(labels)
+ax.set_xlabel('Motion of the elevator', fontsize  = 20)
+ax.legend()
+
+plt.show()
+"""
+
+
+
+
 
