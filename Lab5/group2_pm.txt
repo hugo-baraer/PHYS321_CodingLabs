@@ -1,0 +1,49 @@
+=== PHYS 321 - Lab 5 ===
+Group 2 (PM lab)
+
+Students:
+Luca Weishaupt luca-weishaupt
+Hugo Baraër hugo-baraer <=
+
+== M&Ms ==
+2/2 correct algebraic form for likelihood p(d|b). No need for combinatorical prefactor.
+
+4/4 prior p(b)
+	2/2 working code
+	2/2 for the prior not having unphysical things (e.g., no negative values for b and no values greater than 1)
+
+11/11 plotting distributions
+	3/3 prior
+	3/3 likelihood
+	3/3 posterior
+	2/2 normalizing posterior
+
+6/6 combining data
+	2/2 prior
+	2/2 likelihood
+	2/2 posterior
+
+4/5 comparing the two methods 
+	2/2 saying that the two methods give the same answer
+	2/2 showing the graph
+	0/1 saying that more data -> narrower posterior.
+
+2/2 a reasonable conclusion regarding which M&Ms factory.
+
+4/4 n% credible region code that works!
+
+== Radioactive source ==
+3/3 correct likelihood for p(x| lambda)
+
+12/12 - 3 (Lambda should be bounded between 1 and 20) = 9/12
+	3/3 likelihood
+	3/3 posterior
+	3/3 prior
+	3/3 series of sensible graphs (including things like proper axis labels etc.)
+		
+3/6
+	1/2 after 10 measurements
+	1/2 after 50
+	1/2 after 99
+
+Total 48/55
