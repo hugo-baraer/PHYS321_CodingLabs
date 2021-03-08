@@ -1,0 +1,26 @@
+ Q1a (3 pts): 3
+ Q1b (3 pts): 3
+ Q1c (1 pt): 1
+ Q1d (2 pts): 2
+ Q1 comments: .
+ Q2 (5 pts): 5
+ Q2 comments: .
+ Q3a (2 pts): 2
+ Q3b (4 pts): 2
+ Q3c (4 pts): 4
+ Q3d (4 pts): 4
+ Q3e (6 pts): 6
+ Q3 comments: .
+ Q4 (10 pts): 10
+ Q4 comments: .
+ Q5a (13 pts): 13
+ Q5b (3 pts): 3
+ Q5c (6 pts): 6
+ Q5d (3 pts): 3
+ Q5 comments: Generally when one asks for a credibility region  it's good also to print out numbers
+ Q6a (13 pts): 7
+ Q6b (6 pts): 3
+ Q6 comments: Incorrect application of Bayes in part a  but half credit for prior and full credit for posterior and figure because those were correct given the incorrect initial application; half credit for part b because you did the right thing given the mistakes in a  but it also made the problem a lot easier
+ Total: 77
+ Percentage: 88
+ 
