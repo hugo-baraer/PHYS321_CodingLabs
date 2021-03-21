@@ -1,0 +1,47 @@
+=== PHYS 321 - Lab 7 ===
+Group 2 (PM lab)
+
+Students:
+Luca Weishaupt luca-weishaupt
+Hugo Baraër hugo-baraer <=
+
+15/15 Question 1 - MCMC implementation
+    10/10 MCMC implementation
+        6/6 MH-algorithm : 6 (3 steps x2) 
+        4/4 Bayesian part:
+            1/1 Prior
+            1/1 Posterior
+            2/2 Likelihood
+    5/5 Plotting (labels, legends, data representation, axes units)
+
+10/10 Question 2 - Data fitting and plotting
+    5/5 Data fitting (any method)
+    5/5 Plotting (labels, legends, data representation, axes units)
+
+20/20 Question 3 - Outlier detection
+    10/10 MCMC implementation
+        5/5 emcee 
+            2/2 Guess values
+            2/2 Initial parameters
+            1/1 Implementation
+        5/5 Bayesian part
+            1/1 Prior
+            1/1 Posterior
+            3/3 Likelihood
+    10/10 Plotting
+        5/5 Corner-plot
+        5/5 Outlier detection figure (labels, legends, data representation, axes units)
+
+15/15 Question 4 - SNIa fitting
+    11/11 MCMC implementation
+        5/5 emcee 
+            2/2 Guess values
+            2/2 Initial parameters
+            1/1 Implementation
+        6/6 Bayesian part
+            2/2 Prior
+            2/2 Posterior
+            2/2 Likelihood
+    4/4 Corner-plot
+
+Total: 60/60
